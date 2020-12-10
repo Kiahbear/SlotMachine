@@ -2,6 +2,7 @@ function randomSymbol(min,max) {
 //Complete this function to return a random number
 //Use the random number as the index to your array
 //to choose the symbol for each pull
+    return Math.floor((Math.random() * 6));
 }
 
 function PullTheLever() {
@@ -11,7 +12,7 @@ function PullTheLever() {
     }
     else {
 //Create an array to hold the 6 symbols
-
+let items = ['cherries', 'oranges', 'plums', 'bells', 'melons', 'bars'];
 //For each "pull", call the random number function
 //Use the number returned as the index to your symbol array
 //to retrieve a symbol for each pull
